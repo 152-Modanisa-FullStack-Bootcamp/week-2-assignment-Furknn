@@ -42,10 +42,11 @@ export default {
 #video-list {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 </style>

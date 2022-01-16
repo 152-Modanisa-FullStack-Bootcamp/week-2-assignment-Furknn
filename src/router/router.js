@@ -11,7 +11,7 @@ const router = new VueRouter({
   routes: [
     { path: "/", component: MainPage },
     {
-      path: "/favorites",
+      path: "/favorites/:userId",
       component: FavoritesPage,
     },
     { path: "/watch/:videoId", component: WatchPage },

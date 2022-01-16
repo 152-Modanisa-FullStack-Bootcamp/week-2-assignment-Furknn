@@ -1,14 +1,14 @@
 <template>
   <div>
     <div>
-      WatchPage
+      {{ $route.params.videoId }}
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "WatchPage"
+  name: "WatchPage",
 }
 </script>
 

@@ -1,7 +1,9 @@
 <template>
   <div>
     <Header :favorites="favorites" @searchChanged="changedSearch"></Header>
-    <FavoriteVideo v-for="video in favorites" :key="video.id" :video="video"></FavoriteVideo>
+    <div id="video-list">
+      <FavoriteVideo v-for="video in favorites" :key="video.id" :video="video"></FavoriteVideo>
+    </div>
   </div>
 </template>
 
